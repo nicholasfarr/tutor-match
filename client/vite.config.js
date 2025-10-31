@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
     server: {
       port: parseInt(env.PORT) || 5173,
       proxy: {
-        '/api': env.VITE_API_URL || 'http://localhost:5000'
+        '/api': env.VITE_API_URL || 'http://localhost:3000'
       }
     }
   }
